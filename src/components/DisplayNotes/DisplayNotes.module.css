@@ -1,0 +1,11 @@
+.GridLayout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+@media screen and (max-width: 768px){
+    .GridLayout{
+        grid-template-columns: auto;
+    }
+}

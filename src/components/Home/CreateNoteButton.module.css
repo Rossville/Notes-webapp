@@ -1,0 +1,16 @@
+.createNote{
+    width: 4rem;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .createNote{
+        width: 4rem;
+        position: fixed;
+        right: 75px;
+        top: 20px;
+    }
+}

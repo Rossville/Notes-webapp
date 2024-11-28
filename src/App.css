@@ -1,0 +1,50 @@
+.NoteInputStyles:focus {
+  outline: none;
+}
+
+.pinnedNote {
+  color: rgb(128, 128, 128);
+}
+
+.displayContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.displayNoteChild {
+  background-color: white;
+  z-index: 1010;
+}
+
+
+.notesDataStyles:hover{
+  border: 2px solid rgb(76, 76, 76);
+  cursor: context-menu;
+}
+
+.loaderStyles{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 80vh;
+  color: rgb(206, 76, 76);
+}
+
+.notesDataStyles{
+  position: relative;
+}
+
+.delBtnstyles{
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  margin: 10px;
+}
